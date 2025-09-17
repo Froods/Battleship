@@ -1,0 +1,15 @@
+# Ignore artifacts:
+build
+coverage
+node_modules
+dist
+.gitignore
+.prettierignore
+.prettierrc
+eslint.config.mjs
+package-lock.json
+package.json
+README.md
+webpack.common.js
+webpack.dev.js
+webpack.prod.js
