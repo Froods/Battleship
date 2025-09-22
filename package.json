@@ -1,5 +1,5 @@
 {
-  "name": "[project-name]",
+  "name": "Battleship",
   "version": "1.0.0",
   "description": "TOP project.",
   "main": "index.js",
@@ -13,20 +13,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Froods/[project-name].git"
+    "url": "git+https://github.com/Froods/Battleship.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Froods/[project-name]/issues"
+    "url": "https://github.com/Froods/Battleship/issues"
   },
   "jest": {
     "moduleNameMapper": {
       "\\.(css|less|scss|sass)$": "identity-obj-proxy"
     }
   },
-  "homepage": "https://github.com/Froods/[project-name]#readme",
+  "homepage": "https://github.com/Froods/Battleship#readme",
   "devDependencies": {
     "@babel/core": "^7.28.4",
     "@babel/preset-env": "^7.28.3",
