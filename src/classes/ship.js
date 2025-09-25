@@ -1,9 +1,12 @@
 // Ship class
 
 class Ship {
-	constructor(length, hits) {
-		this.length = length;
-		this.hits = hits;
+	constructor(x, y, dir, len) {
+		this.dir = dir; // 0 = horizontal, 1 = vertical
+		this.x = x;
+		this.y = y;
+		this.len = len;
+		this.hits = 0;
 	}
 
 	hit() {
@@ -11,7 +14,7 @@ class Ship {
 	}
 
 	isSunk() {
-		if (this.length <= this.hits) {
+		if (this.len <= this.hits) {
 			return true;
 		}
 		return false;
